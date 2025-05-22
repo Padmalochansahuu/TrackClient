@@ -1,4 +1,4 @@
-# 📱 Max Mobility - Flutter CRM Assignment
+# 📱 Flutter CRM Assignment
 
 A mobile CRM tool built with Flutter for Max Mobility. This app allows users to manage customers locally, capturing their information, location, and viewing them via embedded Google Maps.
 
