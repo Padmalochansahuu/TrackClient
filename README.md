@@ -1,16 +1,37 @@
-# work
+# 📱 Max Mobility - Flutter CRM Assignment
 
-A new Flutter project.
+A mobile CRM tool built with Flutter for Max Mobility. This app allows users to manage customers locally, capturing their information, location, and viewing them via embedded Google Maps.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 **Login Page**
+  - User ID & Password authentication
+  - Input validation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📋 **Customer List**
+  - Fetches customers from local SQLite DB
+  - Shows image, name, mobile, email & address
+  - 🗺️ Map icon for directions via Google Maps
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- ➕ **Add Customer**
+  - Form to input name, mobile, email, address, coordinates
+  - Auto-capture location with GPS & Google Geocoding API
+  - 📷 Pick image from camera/gallery
+  - 📌 Show embedded Google Map
+  - Validates and saves data locally
+
+- 💾 **Local Storage**
+  - All data persisted using `SQFlite`
+
+- ⚙️ **State Management**
+  - Built using **GetX** for routing, DI, and reactive state
+
+---
+
+## 🔑 Login Credentials
+
+```plaintext
+User ID:    user@maxmobility.in  
+Password:   Abc@#123
