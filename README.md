@@ -1,6 +1,6 @@
 # 📱 Flutter CRM Assignment
 
-A mobile CRM tool built with Flutter for Max Mobility. This app allows users to manage customers locally, capturing their information, location, and viewing them via embedded Google Maps.
+A mobile CRM tool built with Flutter for Max Mobility. This app allows users to manage customers locally, capturing their information, location.
 
 ---
 
@@ -11,19 +11,14 @@ A mobile CRM tool built with Flutter for Max Mobility. This app allows users to 
   - Input validation
 
 - 📋 **Customer List**
-  - Fetches customers from local SQLite DB
+  - Fetches customers from local 
   - Shows image, name, mobile, email & address
-  - 🗺️ Map icon for directions via Google Maps
 
 - ➕ **Add Customer**
   - Form to input name, mobile, email, address, coordinates
   - Auto-capture location with GPS & Google Geocoding API
   - 📷 Pick image from camera/gallery
-  - 📌 Show embedded Google Map
   - Validates and saves data locally
-
-- 💾 **Local Storage**
-  - All data persisted using `SQFlite`
 
 - ⚙️ **State Management**
   - Built using **GetX** for routing, DI, and reactive state
