@@ -1,46 +1,37 @@
-# 📱 Work - Flutter CRM App 
+# 📱 Max Mobility - Flutter CRM Assignment
 
-**Work** is a Flutter-based Customer Relationship Management (CRM) app developed as an assignment for **Max Mobility**. It allows users to log in, manage customer data, capture geo-locations, and view them on Google Maps — with all information stored locally using SQLite.
+A mobile CRM tool built with Flutter for Max Mobility. This app allows users to manage customers locally, capturing their information, location, and viewing them via embedded Google Maps.
 
 ---
 
 ## ✨ Features
 
 - 🔐 **Login Page**
-  - User ID and Password authentication
+  - User ID & Password authentication
   - Input validation
 
 - 📋 **Customer List**
-  - Displays customer data from SQLite
-  - Shows photo, name, phone, email, and address
-  - 🗺️ Map icon launches Google Maps for navigation
+  - Fetches customers from local SQLite DB
+  - Shows image, name, mobile, email & address
+  - 🗺️ Map icon for directions via Google Maps
 
 - ➕ **Add Customer**
-  - Input fields: Name, Phone, Email, Address, Latitude, Longitude
-  - 📍 Auto-fetch location via GPS + Geocoding API
-  - 📷 Select image from camera or gallery
-  - 🗺️ View embedded Google Map of captured location
+  - Form to input name, mobile, email, address, coordinates
+  - Auto-capture location with GPS & Google Geocoding API
+  - 📷 Pick image from camera/gallery
+  - 📌 Show embedded Google Map
+  - Validates and saves data locally
 
 - 💾 **Local Storage**
-  - Uses `SQFlite` for data persistence
+  - All data persisted using `SQFlite`
 
 - ⚙️ **State Management**
-  - Powered by `GetX` (reactive + DI + routing)
+  - Built using **GetX** for routing, DI, and reactive state
 
 ---
 
-## 🔧 Prerequisites
+## 🔑 Login Credentials
 
-- ✅ Flutter SDK `>=3.7.2`
-- ✅ Android Studio / VS Code with Android Emulator or real device
-- ✅ Google Maps API Key (Maps SDK + Geocoding)
-
----
-
-## 🚀 Getting Started
-
-### 🔁 Clone the Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/work.git
-cd work
+```plaintext
+User ID:    user@maxmobility.in  
+Password:   Abc@#123
